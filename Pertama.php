@@ -16,4 +16,4 @@ if ($jam >= 5 && $jam < 11) {
     $sapaan = "Selamat malam";
 }
 
-echo "{$sapaan} {$nama}, sekarang pukul {$waktu}\n";
+echo "{$sapaan} {$nama}, sekarang pukul {$waktu}\n";
