@@ -14,8 +14,7 @@ class Lingkaran
     }
 }
 
-$lingkaran = new Lingkaran();
-$lingkaran->jari_jari = 7;
+$lingkaran = new Lingkaran(7);
 echo "Luas Lingkaran: " . $lingkaran->luas() . "\n";
 echo "Keliling Lingkaran: " . $lingkaran->keliling() . "\n";
 
@@ -23,6 +22,11 @@ class Bola
 {
     const PHI = 3.14;
     public $jari_jari;
+
+    public function __construct($jari_jari)
+    {
+        $this->jari_jari = $jari_jari;
+    }
 
     public function volume() : float {
         return (4/3) * self::PHI * pow($this->jari_jari, 3);
