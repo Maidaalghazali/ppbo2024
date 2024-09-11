@@ -1,4 +1,4 @@
-<ph<?php
+<?php
 class Publisher {
     public $name;
     public $address;
