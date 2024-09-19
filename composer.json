@@ -1,0 +1,19 @@
+{
+    "name": "alghazali/ppbo2024",
+    "description": "Merupakan package untuk latihan pemrograman berorientasi objek",
+    "type": "project",
+    "license": "MIT",
+    "authors":[
+    {
+        "name": "alghazali",
+        "email": "h1101231059@student.untan.ac.id"
+    }
+        
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\":"App"
+        }
+    }
+}
