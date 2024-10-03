@@ -1,5 +1,5 @@
 <?php
-namespace App\Admin;
+namespace App\Model\Akademik;
 class Pegawai {
     public $nip;
     public $nama;
@@ -11,7 +11,7 @@ class Pegawai {
     public function cekOut() : bool {
         return true;
     }
-    public function getNoHp() : int {
+    protected function getNoHp() : int {
         return $this->no_hp;
     }
     public function setNoHp(int $newNoHp) : void {
